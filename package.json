@@ -5,7 +5,7 @@
   "description": "API for cocktails",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest test"
   },
   "author": "John Shroff",
   "license": "ISC",
