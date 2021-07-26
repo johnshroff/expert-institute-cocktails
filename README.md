@@ -45,6 +45,11 @@ cd into directory
 cd expert-institute-cocktails
 ```
 
+create .env file
+```bash
+cp .env.example .env
+```
+
 start server
 ```bash
 node run server.js
