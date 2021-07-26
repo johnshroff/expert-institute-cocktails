@@ -1,0 +1,31 @@
+{
+  "name": "ei-cocktail-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API for cocktails",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Shroff",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "nedb": "^1.8.0",
+    "nedb-promises": "^5.0.0",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.8",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "jest-extended": "^0.11.5"
+  }
+}
